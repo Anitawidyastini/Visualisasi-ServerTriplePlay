@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* MAIN */
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px; /* biar gak nempel footer */
+  text-align: center;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  margin-top: 60px;
+}
+
+.subtitle {
+  color: #8a8a8a;
+  font-size: 16px;
+  margin-bottom: 36px;
+}
+
+/* BUTTON */
+.button-group {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  padding: 14px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background: #fff25a;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background: #f0e600;
+}
+
+.btn-outline {
+  border: 2px solid #fff25a;
+  color: #000;
+}
+
+.btn-outline:hover {
+  background: #fff25a;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+  padding: 16px 0;
+  border-top: 1px solid #eee;
+}
+
+/* DIAGRAM IMAGE */
+.diagram-img {
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 5px;
+  border-radius: 0px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* DEVICE LIST */
+.device-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.device-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.device-card h3 {
+  margin-bottom: 8px;
+}
+
+/* SYSTEM SECTION */
+.system-section {
+  margin-top: 5px;
+}
+
+.system-section h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
